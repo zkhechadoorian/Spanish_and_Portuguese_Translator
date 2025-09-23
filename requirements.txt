@@ -1,0 +1,9 @@
+tensorflow==2.15.0
+tensorflow-text>=2.11
+matplotlib>=3.7.0
+einops==0.6.0
+transformers[torch] 
+datasets 
+evaluate 
+scikit-learn 
+accelerate
