@@ -25,7 +25,7 @@ By leveraging attention, this project delivers more accurate and context-aware t
 
 
 ```
-week_1/
+nmt_translation/
 │
 ├── artifacts/                            # Saved generated artifacts such as exported trained models.
 │   ├── dynamic_translator/               # Saved dynamic translator outputs (see notebook for details).
