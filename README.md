@@ -1,18 +1,46 @@
 # 📊 Project Title: *Transformers And Attention Mechanisms*
 
+This project was originally developed by CompuFlair and modified during their 2025 Bootcamp.
+
 ## 📝 Overview
 
-This repository is structured as a multi-week exploration of sequence modeling and attention-based architectures:
+This repository is structured as a multi-layered exploration of sequence modeling and attention-based architectures:
 
-- **🗓️ Week 1:** Manual implementation of attention mechanisms and neural machine translation (NMT).
-- **🗓️ Week 2:** Building Transformer models from scratch using Keras.
-- **🗓️ Week 3:** Fine-tuning state-of-the-art BERT and GPT models with HuggingFace on the Yelp Review Full dataset.
+- **🗓️ Layer 1:** Manual implementation of attention mechanisms and neural machine translation (NMT).
+- **🗓️ Layer 2:** Building Transformer models from scratch using Keras.
+- **🗓️ Layer 3:** Fine-tuning state-of-the-art BERT and GPT models with HuggingFace on the Yelp Review Full dataset.
 
 Each week includes relevant code, experiments, and documentation to guide you through the concepts and practical steps.
 
 ---
 
-## 📁 Project Structure
+## Analysis Highlights
+
+### 🔬 Layer 1: Neural Machine Translation with Attention
+
+Our attention-based NMT model demonstrates sophisticated translation capabilities with detailed performance analysis across different sentence lengths and attention visualization.
+
+#### 🎯 Performance Analysis by Sentence Length
+![METEOR Score Analysis by Length](1_nmt_translation/assets/meteor_analysis_by_length.png)
+*Figure 1: METEOR score performance breakdown by Spanish sentence length. Shows how translation quality varies from single-word inputs to complex sentences of 10+ words.*
+
+#### 📈 Training Progress
+![Training and Validation Loss](1_nmt_translation/assets/training_and_validation_loss.png)
+*Figure 2: Training and validation loss curves showing model convergence and learning progress over epochs.*
+
+![Training and Validation Accuracy](1_nmt_translation/assets/training_and_validation_accuracy.png)
+*Figure 3: Training and validation accuracy curves demonstrating the model's improving translation performance.*
+
+#### 🔍 Attention Mechanism Visualization
+![Attention Plot - Los Libros](1_nmt_translation/assets/attention_plot_los_libros.png)
+*Figure 4: Attention weights visualization for "los libros" → "the books". Shows how the model focuses on relevant Spanish words when generating each English word.*
+
+![Attention Plot - Long Text](1_nmt_translation/assets/attention_plot_long_text.png)
+*Figure 5: Attention weights for longer sentence translation, demonstrating the model's ability to handle complex sentence structures and maintain contextual awareness.*
+
+---
+
+## �📁 Project Structure
 
 
 ```
