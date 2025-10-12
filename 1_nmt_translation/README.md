@@ -28,6 +28,7 @@ By leveraging attention, this project delivers more accurate and context-aware t
 1_nmt_translation/
 │
 ├── artifacts/                            # Saved generated artifacts such as exported trained models.
+|-- assets /                              # Saved generated images.
 │   ├── dynamic_translator/               # Saved dynamic translator outputs (see notebook for details).
 │   ├── translator/                       # Saved translator outputs (see notebook for details).
 │
@@ -92,6 +93,6 @@ After running all cells in `nmt_with_attention.ipynb`, you will find the final e
 
 ### 📈 Suggested Improvements
 
-- **Expand Evaluation:** Include additional metrics such as BLEU, ROUGE, or METEOR scores for a more comprehensive assessment of translation quality.
+- **Expand Evaluation:** Include additional metrics such as BLEU, ROUGE in addidtion to METEOR scores for a more comprehensive assessment of translation quality.
 
 
